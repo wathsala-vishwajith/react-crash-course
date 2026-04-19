@@ -1,11 +1,11 @@
 import { useParams } from "react-router";
 import JobListing from "../components/JobListing";
-import data from "../data.json";
+import data from "../jobs.json";
 
 const JobDetail = () => {
     const {id} = useParams();
     const jobs = data.jobs;
-    const job = jobs.find((job) => job.id === parseInt(id));
+    const job = jobs.find((job) => job.id === id);
 
 
     return ( 

@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
+import JobDetail from "./pages/JobDetail";
 import NotFound from "./pages/NotFound";
 
 
